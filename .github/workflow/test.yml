@@ -1,4 +1,5 @@
-name: 'testing pipeline'
+name: testing pipeline
+
 on:
   push:
     branches:
