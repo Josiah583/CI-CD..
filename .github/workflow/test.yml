@@ -5,8 +5,10 @@ on:
         - master
 
 jobs:
-  test1
-    runs-on: ubuntu-lates
+  test1:
+    runs-on: ubuntu-latest
+
+      -
     steps:
       name: step 1
       run: echo "say hello world. this is our first "
