@@ -8,8 +8,7 @@ on:
 jobs:
   test1:
     runs-on: ubuntu-latest
-
-      -
     steps:
-      name: step 1
-      run: echo "say hello world. this is our first "
+      -
+        name: step1
+        run: echo "say hello world. this is our first "
