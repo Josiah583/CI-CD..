@@ -1,0 +1,12 @@
+name: 'testing pipeline'
+on:
+  push:
+    branches:
+        - master
+
+jobs:
+  test1
+    runs-on: ubuntu-lates
+    steps:
+      name: step 1
+      run: echo "say hello world. this is our first "
